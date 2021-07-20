@@ -11,3 +11,11 @@ body {
     color: #1f77b4;
     cursor: pointer;
 }
+
+button{
+    background-color: #1f77ba;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
