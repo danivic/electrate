@@ -7,10 +7,10 @@ import {
 } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 
-const AppMenu = () => {
+const AppMenu = ({selectedKey}) => {
     return (
         <>
-            <Menu mode="horizontal" defaultSelectdJeys={['1']} theme={'dark'}>
+            <Menu mode="horizontal" defaultSelectedKeys={[selectedKey]} theme={'dark'}>
                 
                     <Menu.Item
                         key='1'

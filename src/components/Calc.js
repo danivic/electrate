@@ -14,7 +14,7 @@ const Calc = () => {
 
     return (
                 <>
-                <AppMenu></AppMenu>
+                <AppMenu selectedKey='1'/>
             <h2>Calculadora</h2>
             <form>
                 <div>

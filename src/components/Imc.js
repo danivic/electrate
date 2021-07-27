@@ -14,7 +14,7 @@ const Imc = () => {
 
     return (
         <>
-        <AppMenu></AppMenu>
+        <AppMenu selectedKey='2'/>
             <h2>Calculadora de IMC</h2>
             <form>
                 <div>
