@@ -8,7 +8,7 @@ return (
 <AppMenu selectedKey='3'/>
 <PageHeader
 title="A fazer"
-subtitle='Minha lista de tarefas'
+subTitle="Minha lista de tarefas"
 />
 </>
 )
