@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AppMenu from './AppMenu'
 
 const Imc = () => {
 
@@ -13,6 +14,7 @@ const Imc = () => {
 
     return (
         <>
+        <AppMenu></AppMenu>
             <h2>Calculadora de IMC</h2>
             <form>
                 <div>
