@@ -3,7 +3,8 @@ import { Menu } from 'antd';
 import {
     BarChartOutlined,
     CalculatorOutlined,
-    UnorderedListOutlined
+    UnorderedListOutlined,
+    PieChartOutlined
 } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 
@@ -37,6 +38,16 @@ const AppMenu = ({selectedKey}) => {
                     >
                         <Link to="/todo">
                         Todo
+                        </Link>
+                    </Menu.Item>
+
+
+                    <Menu.Item
+                        key='4'
+                        icon={<PieChartOutlined/>}
+                    >
+                        <Link to="/getpizzas">
+                        GetPizzas
                         </Link>
                     </Menu.Item>
 
